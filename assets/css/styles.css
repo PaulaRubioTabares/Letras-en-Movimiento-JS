@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column; /* como se colocan los elementos que tienen flex */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #eee;
+
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.card__container{
+    width: 30%;
+    padding: 15px;
+    margin: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+.img{
+    width: 100%;
+    border-radius: 5px;
+}
+.valor{
+    font-weight: bolder;
+    color: #6b08a5;
+}
+
+.bottom{
+    display: block;
+    padding: 10px;
+    border-radius: 5PX;
+    font-size: 0.8rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #b433ff;
+}
