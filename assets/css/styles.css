@@ -9,7 +9,7 @@ body{
     height: 100%;
     position: absolute;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* como se colocan los elementos que tienen flex */
     justify-content: center;
     align-items: center;
     text-align: center;
